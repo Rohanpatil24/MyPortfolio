@@ -1,1 +1,232 @@
-html5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rohan Patil</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Portfolio | <span style="color: orange;">Rohan Patil</span> </h1>
+        </nav>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Work">Work</a>
+            <a href="#GetInTouch">Get In Touch</a>
+        </nav>
+    </header>
+
+    <section id="Home" class="section home">
+        <h3>Hello !!!</h3>
+        <h1>I'm Rohan Patil</h1>
+        <!-- <p>&</p> -->
+        <h3>I'am Full Stack Web Developer</h3>
+    </section>
+
+    <section id="Skills" class="section skills">
+        <div>
+            <h1>Skills</h1>
+            <p>Hover Over the below Skills to check the Skills</p>
+        </div>
+        <div class="skill_cont">
+            <div class="skill_item">
+                <div class="skill_value html">
+                    <h3>95%</h3>
+                </div>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill_item">
+                <div class="skill_value css">
+                    <h3>85%</h3>
+                </div>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill_item">
+                <div class="skill_value javaScript">
+                    <h3>75%</h3>
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill_item">
+                <div class="skill_value core_java">
+                    <h3>60%</h3>
+                </div>
+                <h3>Core Java</h3>
+            </div>
+            <div class="skill_item">
+                <div class="skill_value aws">
+                    <h3>70%</h3>
+                </div>
+                <h3>AWS</h3>
+            </div>
+            <div class="skill_item">
+                <div class="skill_value mysql">
+                    <h3>90%</h3>
+                </div>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill_item">
+                <div class="skill_value python">
+                    <h3>80%</h3>
+                </div>
+                <h3>Python</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="Work" class="section work">
+        <div>
+            <h1>Work <span style="color: orange;">Experiances</span></h1>
+        </div>
+        <div class="work_cont">
+            <aside>
+                <table>
+                    <tr>
+                        
+                        <td>Antariksh Softech Private Ltd.</td>
+                        <td><button onclick="change1()">Know More</button></td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Reliance Digital Retail Ltd.</td>
+                        <td><button onclick="change2()">Know More</button></td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Future Group Private Ltd.</td>
+                        <td><button onclick="change3()">Know More</button></td>
+                    </tr>
+                </table>
+            </aside>
+            <aside>
+                <div class="work_display">
+                    <div class="display_cont">
+                        <div class="display_item" id="item1">
+                            <ul type="none">
+                                <li>Feb 2023 - Present</li>
+                                <li>Maintaining and administering computer networks
+                                    and related computing environments including
+                                    systems software, applications software, hardware,
+                                    and configurations.</li>
+                                <li>Performing disaster recovery operations and data
+                                    backups when required.</li>
+                                <li>Protecting data, software, and hardware by
+                                    coordinating, planning, and implementing network
+                                    security measures.</li>
+                                <li>Troubleshooting, diagnosing, and resolving
+                                    hardware, software, and other network and system
+                                    problems.</li>
+                                <li>Designing, configuring, and testing networking.</li>
+                            </ul>
+                        </div>
+                        <div class="display_item" id="item2">
+                            <ul type="none">
+                                <li>Sep 2021 - Jan 2023</li>
+                                <li>Designing, configuring, and testing networking.</li>
+                                <li>Inventory Management.</li>
+                                <li>SAP Handling.</li>
+                                <li>Data analysis.</li>
+                                <li>Advance Excel, Power Point and Word.</li>
+                                <li>Directs production and inventory control, shipping and
+                                    receiving, and materials storage. Directs production
+                                    planning and scheduling based on sales forecasts.
+                                    Maintains inventory levels to ensure deliveries occur
+                                    within customer timelines.</li>
+                            </ul>
+                        </div>
+                        <div class="display_item" id="item3">
+                            <ul type="none">
+                                <li>Sep 2018 - Jan 2021</li>
+                                <li>Manage transactions with customers using cash
+                                    registers.</li>
+                                <li>Scan goods and ensure pricing is accurate.</li>
+                                <li>Collect payments whether in cash or credit
+                                    Issue receipts, refunds, change or tickets.</li>
+                                <li>Crossselling products and introduce new ones</li>
+                                <li>Resolve customer complaints, guide them and
+                                    provide relevant information.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <section id="GetInTouch" class="section getintouch">
+        <div>
+            <h1>Get In Touch</h1>
+        </div>
+        <div class="form_cont">
+            <aside class="links">
+                <div>
+                    <h2>Follow me on <span style="color: rgb(248, 4, 126);">Social Media</span> 
+                        Platform
+                    </h2>
+                </div>
+                <div class="links_cont">
+                    <a href="">Linkedin</a>
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">Snapchat</a>
+                    <a href="">WhatsApp</a>
+                </div>
+
+            </aside>
+            <aside class="form">
+                <form action="">
+                    <h2>Enter Your Details</h2><br>
+                    <input type="text" placeholder="Enter Your First Name">
+                    <input type="text" placeholder="Enter Your Last Name">
+                    <input type="email" placeholder="Enter Your Email ID">
+                    <input type="tel" name="" id="" placeholder="Contact Number : Optional">
+                    <textarea name="" id="" cols="50" rows="15" placeholder="Type Your Message"></textarea><br>
+                    <button type="submit">Send</button>
+                </form>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_top">
+            <aside class="f_link">
+                <a href="#Home">Home</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Work">Work</a>
+                <a href="#GetInTouch">Get In Touch</a>
+            </aside>
+            <aside class="f_email">
+                <h2>Official Email : rohanrpatil24@gmail.com</h2>
+            </aside>
+        </div>
+        <div class="footer_bottom">
+            <h4>&copy; 2024 Portfolio | Rohan Patil</h4>
+        </div>
+    </footer>
+
+    <script>
+        var item1 = document.getElementById("item1");
+        var item2 = document.getElementById("item2");
+        var item3 = document.getElementById("item3");
+        function change1(){
+             item1.style= "display:flex";
+             item2.style= "display:none";
+             item3.style= "display:none";
+        }
+        function change2(){
+            item2.style= "display:flex";
+             item1.style= "display:none";
+             item3.style= "display:none";
+        }
+        function change3(){
+            item3.style= "display:flex";
+             item2.style= "display:none";
+             item1.style= "display:none";
+        }
+    </script>
+</body>
+</html>
